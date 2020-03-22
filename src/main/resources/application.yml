@@ -4,6 +4,12 @@ spring:
     url: jdbc:mysql://localhost:3306/victolee?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
     password: sinsiway
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
 
   jpa:
       database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
